@@ -4,7 +4,7 @@ This api contains 28k+ iata codes with basic information.
 
 The Api endpoint are as follows : 
 
-#####ALL GET METHODS
+**ALL GET METHODS**
 
 - /iata -> returns all the data in the api
 - /iata/{id{ -> returns one iata by his id (JPA ID not iata code)
