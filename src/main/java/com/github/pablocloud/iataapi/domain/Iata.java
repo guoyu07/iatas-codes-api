@@ -15,6 +15,8 @@ public class Iata implements Serializable {
     private String code;
     private String name;
     private String type;
+    private String country;
+    private String city;
 
     public Iata() {
 
@@ -61,6 +63,14 @@ public class Iata implements Serializable {
 
     public void setType(String type) {
         this.type = type;
+    }
+
+    public String getCountry() {
+        return country;
+    }
+
+    public void setCountry(String country) {
+        this.country = country;
     }
 
 }

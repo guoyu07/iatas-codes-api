@@ -40,6 +40,9 @@ class IataInflater {
                     if (o.containsKey("type")) {
                         iata.setType(o.get("type").toString());
                     }
+                    if (o.containsKey("continent")) {
+                        iata.setCountry(o.get("continent").toString());
+                    }
                     iataRepository.save(iata);
                 } catch (Exception ex) {
                     System.out.println(o);
